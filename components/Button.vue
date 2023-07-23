@@ -1,7 +1,9 @@
 <template>
   <div class="storybook sb-column"> 
-    <h4> SFC Component </h4>
-    <button type="button" :class="classes" @click="onClick" :style="style">{{ label }} </button>
+    <h4> Nuxt Component </h4>
+    <MyNuxtLink :class="classes" @click="onClick" :style="style">
+      {{ label }} 
+    </MyNuxtLink>
  </div>
 </template>
 
@@ -9,7 +11,7 @@
 import './button.css';
 import { computed } from 'vue';
 
-import type { Sizes } from './types';
+type Sizes = 'small' | 'medium' | 'large' | 'xlarge';
 
 const props = withDefaults(defineProps<{
   /**
