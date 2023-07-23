@@ -2,7 +2,7 @@ import type { Meta, StoryObj, VueRenderer } from '@storybook/vue3';
 import type { DecoratorFunction } from "@storybook/types"
 
 import MyPre from '~/components/Pre.vue'
-import MyButton from '~/components/Button.vue'
+import MyButton from '~/components/MyButton.vue'
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 const decorators:DecoratorFunction<VueRenderer>[] = []
