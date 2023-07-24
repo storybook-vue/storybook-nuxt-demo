@@ -9,32 +9,14 @@ Look at [Storybook Nuxt](https://github.com/storybook-vue/nuxt) & the [Nuxt 3 do
 
 ## Setup
 
-Make sure to install the dependencies:
+We use `pnpm` due to its ability to resolve dependencies for forked packages efficiently. :
 
 ```bash
-# npm
-npm install
 
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run storybook dev
-
-# pnpm
 pnpm storybook dev
 
-# yarn
-yarn storybook dev
 ```
+
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
