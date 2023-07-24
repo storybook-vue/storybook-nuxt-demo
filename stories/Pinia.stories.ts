@@ -22,8 +22,8 @@ type Story = StoryObj<typeof meta>;
  * to learn how to use render functions.
  */
 
-export const UserConfigComposable : Story = {
-  args: {  },
+export const Pinia : Story = {
+  args: { msg: `Storybook ❤️‍🔥 Nuxt ❤️‍🔥 Pinia` },
 }
 
 

@@ -1,10 +1,12 @@
 <template>
     <div>
       <div style="margin: 1rem 0">
+        <h1>{{ msg }}</h1>
         <PiniaLogo />
       </div>
   
       <p>
+        
         This is an example store to test out devtools. Try one of the following
         with the devtools open:
         <br />
@@ -68,6 +70,13 @@
   
   <script setup lang="ts">
   import PiniaLogo from '~/components/PiniaLogo.vue'
+
+  const props = defineProps({
+    msg: {
+      type: String,
+      required: true,
+    },
+  })
   
   const counter = useCounter()
   
@@ -78,6 +87,11 @@
   .storybook-button {
     margin-right: 0.1rem;
     margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
   }
   </style>
   
