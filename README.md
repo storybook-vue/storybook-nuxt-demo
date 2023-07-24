@@ -5,7 +5,7 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-Look at [Storybook Nuxt](https://github.com/storybook-vue/nuxt) repo to learn more.
+Look at the [Storybook Nuxt](https://github.com/storybook-vue/nuxt) repo to learn more.
 
 ## Setup
 
@@ -28,41 +28,13 @@ Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run dev
+npm run storybook dev
 
 # pnpm
-pnpm run dev
+pnpm storybook dev
 
 # yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
+yarn storybook dev
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
