@@ -3,7 +3,7 @@
 
     <h1> Using composables : </h1>
     <pre>
-       - runtime config {{ JSON.stringify( config) }} -
+       - runtime config {{ JSON.stringify( config,null,2 ) }} -
     </pre>
 
 </template>
