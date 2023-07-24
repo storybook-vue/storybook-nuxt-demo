@@ -16,6 +16,4 @@ const config: StorybookConfig = {
   },
 };
 
-// const vueApp = createApp();
-
 export default config;
