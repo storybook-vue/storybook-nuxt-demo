@@ -1,5 +1,4 @@
 import type { StorybookConfig } from "@storybook/nuxt";
-// import { createApp } from "./nuxt"
 const config: StorybookConfig = {
   stories: ["../**/*.mdx", "../**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
