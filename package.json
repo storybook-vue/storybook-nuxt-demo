@@ -19,7 +19,7 @@
     "@storybook/addon-links": "7.1.0-rc.1",
     "@storybook/blocks": "7.1.0-rc.1",
     "@storybook/types": "7.1.0-rc.1",
-    "@storybook-vue/nuxt":"0.0.1-beta.4",
+    "@storybook-vue/nuxt":"0.0.1-rc.1",
     "storybook": "7.1.0-rc.1",
     "@types/node": "^18.16.19",
     "@vitejs/plugin-vue": "^4.2.3",
