@@ -8,9 +8,7 @@ Look at [Storybook Nuxt](https://github.com/storybook-vue/nuxt) & the [Nuxt 3 do
 
 
 ## Setup
-
-We use `pnpm` due to its ability to resolve dependencies for forked packages efficiently. :
-
+ 
 ```bash
 
 pnpm install
@@ -18,5 +16,3 @@ pnpm storybook dev
 
 ```
 
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
