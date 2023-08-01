@@ -4,7 +4,7 @@
   line-height: 1.5;
   color: #333;
   background-color: white;
-} 
+}
 
 .storybook-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -42,18 +42,17 @@
   padding: 10px;
 }
 .sb-row {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    border: 1px solid #d8adad;
-    border-radius: 6px;
-    padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #d8adad;
+  border-radius: 6px;
+  padding: 10px;
 }
 
 .sb-column {
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  justify-content:center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }

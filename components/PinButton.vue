@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import './button.css';
+import '~/assets/button.css';
 import { computed } from 'vue';
 
 type Sizes = 'small' | 'medium' | 'large' | 'xlarge';
