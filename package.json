@@ -14,7 +14,7 @@
     "@nuxt/devtools": "latest",
     "@nuxt/image": "rc",
     "@pinia/nuxt": "^0.4.11",
-    "@storybook-vue/nuxt":"0.0.1-rc.4",
+    "@storybook-vue/nuxt":"latest",
     "@storybook/addon-essentials": "7.1.1",
     "@storybook/addon-interactions": "7.1.1",
     "@storybook/addon-links": "7.1.1",
